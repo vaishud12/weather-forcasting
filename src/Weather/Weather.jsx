@@ -65,7 +65,7 @@ const Weather = () => {
       <div >
   
       <div className={`weather ${isClicked ? 'cloudy-background' : 'default-background'}`}>
-        {/* <AsyncPaginate placeholder="Search for city" /> */}
+        
             <div className="search">
               <input
                 type="text"
